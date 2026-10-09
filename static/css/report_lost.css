@@ -1,0 +1,23 @@
+/* Form container background */
+.form-card {
+    background-color:  #f9fafb;   /* change this to any color you want */
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Input field background */
+.form-control,
+.form-select {
+    background-color: #f9fafb;   /* light gray input background */
+}
+
+/* Placeholder color */
+.form-control::placeholder {
+    color: #9ca3af;   /* light gray text */
+    opacity: 1;       /* ensures full visibility */
+}
+
+/* For textarea placeholder also */
+textarea::placeholder {
+    color: #9ca3af;
+}
